@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Día del Bailarín 💃✨</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="background-animation"></div>
+
+    <section class="hero">
+        <h1>Feliz Día del Bailarín 💃✨</h1>
+        <h2>Para mi <span>bailarina favorita hermosa</span></h2>
+        <p>
+            Hoy celebro tu disciplina, tu pasión, tu fuerza y tu elegancia.
+            Cada escenario que pisas se ilumina.
+            Cada movimiento tuyo es arte puro.
+        </p>
+        <button onclick="mostrarMensaje()">Haz clic aquí ❤️</button>
+    </section>
+
+    <section class="galeria">
+        <img src="assets/foto1.jpg" alt="Foto 1">
+        <img src="assets/foto2.jpg" alt="Foto 2">
+        <img src="assets/foto3.jpg" alt="Foto 3">
+    </section>
+
+    <section class="mensaje-oculto" id="mensajeFinal">
+        <h2>Eres arte en movimiento ✨</h2>
+        <p>
+            Gracias por existir.
+            Gracias por bailar.
+            Gracias por ser tu.
+        </p>
+        <h3> Te amo con toda mi alma hermosaaa te amooo. Y espero que Dios
+            te siga proporcionando muchos más bailes que me encantarian ver. Eres y seras mi persona favortia
+            la mujer que amo con toda mi vida, mi amor, mi niña hermosa, y hoy recordarte que siempre seras mi bailarina favorita ❤️</h3>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
